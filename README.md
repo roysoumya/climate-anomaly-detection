@@ -1,6 +1,6 @@
 #Anomaly detection and Summarisation of various extreme weather events over the Indian sub-continent
 ##Introduction
-This repository contains all the R codes that I have written during my summer internship at IIT Kharagpur.The data that is dealt with is a spatio-temporal climate over the Indian sub-continent. Most of the codes deal with the pre-processing stage(i.e, converting .nc to a 2-D workable .csv format) and application of gating techniques. Somes codes contain implementation of the grid-wise spatio-temporal clustering. The R program containing the cSTAG implementation is intentionally not provided due to privacy issues.
+This repository contains all the R codes that I have written during my summer internship at IIT Kharagpur. The data is spatio-temporal in nature, with the spatial projection over only the Indian sub-continent. Most of the codes deal with the pre-processing stage(i.e, converting .nc to a 2-D workable .csv format) and application of gating techniques. Somes codes contain implementation of the grid-wise spatio-temporal clustering. The R program containing the cSTAG implementation is intentionally not provided due to privacy issues.
 
 All the uploaded codes can be freely used by everyone. Hope it helps.
 
