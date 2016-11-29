@@ -32,7 +32,7 @@ for (i in 1:925) {
   #up25[i]=sto_mean+(2.5*sto_sd)
   #down25[i]=sto_mean-(2.5*sto_sd)
 #}
-
+#new
 air_work = rbind(air_work,up3,down3,up25,down25)
 
 air_outliers3_time=0
