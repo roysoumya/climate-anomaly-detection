@@ -13,3 +13,19 @@ The weather data used for the study is collected from the NCEP/NCAR website and 
 ###Global attributes:
   1. conventions = “COARDS”
   2. Description = Data is from NMC reanalysis (4 times/day). It consists of most variablesinterpolated to pressure surfaces from model(sigma) surfaces.
+  
+##Case Studies
+###1. Tornado :
+We studied this event from 26 th October to 1 st November,1999. On 29th October, 1999 a tornado was reported at Midnapore and South 24 Pargana districts, close to Paradeep which injured 80 people.
+
+  **Function call :** cstag(omega_data, 71321, 71352, 7, 11, 7, 12, param = 'omega')
+  
+  **Observation :** We find that region at the reported location of the tornado is showing uncorrelated behavior with the surrounding areas and also with adjacent time steps. This indicates turbulent behavior and also we see they persist over the specific area during the period of the tornado. Most importantly, all this disturbances disappear at the end, which indicates a strong and positive detection.
+
+###2.La Nina event :
+We studied this event from 22 nd to 28 th December,1999. Strong effect of La-Nina was seen till January, 2000 around Andaman and Nicobar Islands and Malaysia.
+
+  **Function call :** cstag(temp_data, 71549, 71573, 5, 15, 9, 15, param= 'air_temp')
+  
+  **Observation :** A large portion is blank because the region was already going through a period of disturbance as stated in one report. The change in red and yellow events shows two simultaneous events developing over time and at the end, the disturbances seem to disappear.
+
